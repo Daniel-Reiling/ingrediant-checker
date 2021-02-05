@@ -95,10 +95,8 @@
 		653ED17F25CD96BB009C5D84 /* IngrediantChecker */ = {
 			isa = PBXGroup;
 			children = (
-				653ED18025CD96BB009C5D84 /* IngrediantCheckerApp.swift */,
-				653ED18225CD96BB009C5D84 /* ContentView.swift */,
-				653ED18425CD96BC009C5D84 /* Assets.xcassets */,
-				653ED18925CD96BC009C5D84 /* Info.plist */,
+				653ED1AE25CD97D6009C5D84 /* App */,
+				653ED1AF25CD97E4009C5D84 /* Content Views */,
 				653ED18625CD96BC009C5D84 /* Preview Content */,
 			);
 			path = IngrediantChecker;
@@ -128,6 +126,24 @@
 				653ED19F25CD96BC009C5D84 /* Info.plist */,
 			);
 			path = IngrediantCheckerUITests;
+			sourceTree = "<group>";
+		};
+		653ED1AE25CD97D6009C5D84 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				653ED18225CD96BB009C5D84 /* ContentView.swift */,
+				653ED18425CD96BC009C5D84 /* Assets.xcassets */,
+				653ED18925CD96BC009C5D84 /* Info.plist */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		653ED1AF25CD97E4009C5D84 /* Content Views */ = {
+			isa = PBXGroup;
+			children = (
+				653ED18025CD96BB009C5D84 /* IngrediantCheckerApp.swift */,
+			);
+			path = "Content Views";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -421,7 +437,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"IngrediantChecker/Preview Content\"";
 				DEVELOPMENT_TEAM = F39RW48V66;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = IngrediantChecker/Info.plist;
+				INFOPLIST_FILE = IngrediantChecker/App/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -443,7 +459,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"IngrediantChecker/Preview Content\"";
 				DEVELOPMENT_TEAM = F39RW48V66;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = IngrediantChecker/Info.plist;
+				INFOPLIST_FILE = IngrediantChecker/App/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
